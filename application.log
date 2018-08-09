@@ -305,4 +305,4 @@
 2018-07-24 09:37:51,997 DEBUG [Forwarding clickElement on session 37b10511-ed5f-4f3f-a588-ac6f5ea7e67a to remote] wire:86 - http-outgoing-6 << "{"name":"clickElement","sessionId":"37b10511-ed5f-4f3f-a588-ac6f5ea7e67a","status":0,"value":"ok"}"
 2018-07-24 09:37:51,997 DEBUG [Forwarding clickElement on session 37b10511-ed5f-4f3f-a588-ac6f5ea7e67a to remote] DefaultManagedHttpClientConnection:81 - http-outgoing-6: Close connection
 2018-07-24 09:37:51,997 DEBUG [Forwarding clickElement on session 37b10511-ed5f-4f3f-a588-ac6f5ea7e67a to remote] MainClientExec:103 - Connection discarded
-2018-07-24 09:37:51,998 DEBUG [Forwarding clickElement on session 37b10511-ed5f-4f3f-a588-ac6f5ea7e67a to remote] PoolingHttpClientConnectionManager:320 - Connection released: [id: 6][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-07-24 09:37:51,998 DEBUG [Forwardind5f-4f3f-a588-ac6f5ea7e67a to remote] PoolingHttpClientConnectionManager:320 - Connection released: [id: 6][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
