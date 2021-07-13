@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FlipKart TestScripts" duration-ms="102644" started-at="2021-07-13T15:02:11Z" finished-at="2021-07-13T15:03:54Z">
+    <groups>
+    </groups>
+    <test name="FlipKart Testcase 1: Close Login Popup" duration-ms="22438" started-at="2021-07-13T15:02:11Z" finished-at="2021-07-13T15:02:33Z">
+      <class name="com.FlipKart.TestCases.CloseFlipKartLoginPopup">
+        <test-method status="PASS" signature="Selectbrowser()[pri:0, instance:com.FlipKart.TestCases.CloseFlipKartLoginPopup@4973813a]" name="Selectbrowser" is-config="true" duration-ms="19173" started-at="2021-07-13T20:32:11Z" finished-at="2021-07-13T20:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selectbrowser -->
+        <test-method status="PASS" signature="CloseAlertPopup()[pri:0, instance:com.FlipKart.TestCases.CloseFlipKartLoginPopup@4973813a]" name="CloseAlertPopup" duration-ms="2281" started-at="2021-07-13T20:32:30Z" finished-at="2021-07-13T20:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseAlertPopup -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.FlipKart.TestCases.CloseFlipKartLoginPopup@4973813a]" name="teardown" is-config="true" duration-ms="957" started-at="2021-07-13T20:32:32Z" finished-at="2021-07-13T20:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.FlipKart.TestCases.CloseFlipKartLoginPopup -->
+    </test> <!-- FlipKart Testcase 1: Close Login Popup -->
+    <test name="FlipKart Testcases 2 and 3: Login via Popup and Product Search" duration-ms="38772" started-at="2021-07-13T15:02:33Z" finished-at="2021-07-13T15:03:12Z">
+      <class name="com.FlipKart.TestCases.LoginFlipKartviaAlertPopup">
+        <test-method status="PASS" signature="Selectbrowser()[pri:0, instance:com.FlipKart.TestCases.LoginFlipKartviaAlertPopup@1c3a4799]" name="Selectbrowser" is-config="true" duration-ms="17613" started-at="2021-07-13T20:32:33Z" finished-at="2021-07-13T20:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selectbrowser -->
+        <test-method status="PASS" signature="LoginFlipkart()[pri:0, instance:com.FlipKart.TestCases.LoginFlipKartviaAlertPopup@1c3a4799]" name="LoginFlipkart" duration-ms="9280" started-at="2021-07-13T20:32:51Z" finished-at="2021-07-13T20:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFlipkart -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.FlipKart.TestCases.LoginFlipKartviaAlertPopup@1c3a4799]" name="teardown" is-config="true" duration-ms="964" started-at="2021-07-13T20:33:11Z" finished-at="2021-07-13T20:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.FlipKart.TestCases.LoginFlipKartviaAlertPopup -->
+      <class name="com.FlipKart.TestCases.FlipKartProductSearch">
+        <test-method status="PASS" signature="ProductSearch()[pri:0, instance:com.FlipKart.TestCases.FlipKartProductSearch@131276c2]" name="ProductSearch" duration-ms="10902" started-at="2021-07-13T20:33:00Z" finished-at="2021-07-13T20:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSearch -->
+      </class> <!-- com.FlipKart.TestCases.FlipKartProductSearch -->
+    </test> <!-- FlipKart Testcases 2 and 3: Login via Popup and Product Search -->
+    <test name="FlipKart Testcase 4: Add to cart" duration-ms="41378" started-at="2021-07-13T15:03:12Z" finished-at="2021-07-13T15:03:54Z">
+      <class name="com.FlipKart.TestCases.FlipKartAddtoCart">
+        <test-method status="PASS" signature="Selectbrowser()[pri:0, instance:com.FlipKart.TestCases.FlipKartAddtoCart@23faf8f2]" name="Selectbrowser" is-config="true" duration-ms="17184" started-at="2021-07-13T20:33:12Z" finished-at="2021-07-13T20:33:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selectbrowser -->
+        <test-method status="PASS" signature="addtocart()[pri:0, instance:com.FlipKart.TestCases.FlipKartAddtoCart@23faf8f2]" name="addtocart" duration-ms="23231" started-at="2021-07-13T20:33:29Z" finished-at="2021-07-13T20:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.FlipKart.TestCases.FlipKartAddtoCart@23faf8f2]" name="teardown" is-config="true" duration-ms="955" started-at="2021-07-13T20:33:53Z" finished-at="2021-07-13T20:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.FlipKart.TestCases.FlipKartAddtoCart -->
+    </test> <!-- FlipKart Testcase 4: Add to cart -->
+  </suite> <!-- FlipKart TestScripts -->
+</testng-results>

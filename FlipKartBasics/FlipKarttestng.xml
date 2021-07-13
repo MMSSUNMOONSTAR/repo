@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FlipKart TestScripts">
+	<test name="FlipKart Testcase 1: Close Login Popup">
+		<classes>
+			<class name="com.FlipKart.TestCases.CloseFlipKartLoginPopup">
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="FlipKart Testcases 2 and 3: Login via Popup and Product Search">
+		<classes>
+			<class name="com.FlipKart.TestCases.LoginFlipKartviaAlertPopup">
+			</class>
+			<class name="com.FlipKart.TestCases.FlipKartProductSearch">
+			</class>
+		</classes>
+	</test>
+
+	<test name="FlipKart Testcase 4: Add to cart">
+		<classes>
+			<class name="com.FlipKart.TestCases.FlipKartAddtoCart">
+			</class>
+		</classes>
+	</test>
+</suite>

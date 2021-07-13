@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FlipKart TestScripts]">
+  <test name="FlipKart Testcases 2 and 3: Login via Popup and Product Search(failed)">
+    <classes>
+      <class name="com.FlipKart.TestCases.LoginFlipKartviaAlertPopup">
+        <methods>
+          <include name="teardown"/>
+          <include name="Selectbrowser"/>
+        </methods>
+      </class> <!-- com.FlipKart.TestCases.LoginFlipKartviaAlertPopup -->
+      <class name="com.FlipKart.TestCases.FlipKartProductSearch">
+        <methods>
+          <include name="ProductSearch"/>
+        </methods>
+      </class> <!-- com.FlipKart.TestCases.FlipKartProductSearch -->
+      <class name="com.FlipKart.TestCases.CloseFlipKartLoginPopup">
+        <methods>
+          <include name="teardown"/>
+          <include name="Selectbrowser"/>
+        </methods>
+      </class> <!-- com.FlipKart.TestCases.CloseFlipKartLoginPopup -->
+    </classes>
+  </test> <!-- FlipKart Testcases 2 and 3: Login via Popup and Product Search(failed) -->
+</suite> <!-- Failed suite [FlipKart TestScripts] -->

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-FlipKart_TestScripts">
+              <span class="suite-name border-passed">FlipKart TestScripts</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-FlipKart_TestScripts">
+                    <span>D:\AUTOMATION\WORKSPACE\FlipKartBasics\FlipKarttestng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-FlipKart_TestScripts">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-FlipKart_TestScripts">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-FlipKart_TestScripts">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-FlipKart_TestScripts">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-FlipKart_TestScripts">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-FlipKart_TestScripts">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FlipKart_TestScripts" class="hide-methods passed suite-FlipKart_TestScripts"> (hide)</a> <!-- hide-methods passed suite-FlipKart_TestScripts -->
+                      <a href="#" panel-name="suite-FlipKart_TestScripts" class="show-methods passed suite-FlipKart_TestScripts"> (show)</a> <!-- show-methods passed suite-FlipKart_TestScripts -->
+                    </span>
+                    <div class="method-list-content passed suite-FlipKart_TestScripts">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FlipKart_TestScripts" title="com.FlipKart.TestCases.CloseFlipKartLoginPopup" hash-for-method="CloseAlertPopup">CloseAlertPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FlipKart_TestScripts" title="com.FlipKart.TestCases.LoginFlipKartviaAlertPopup" hash-for-method="LoginFlipkart">LoginFlipkart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FlipKart_TestScripts" title="com.FlipKart.TestCases.FlipKartProductSearch" hash-for-method="ProductSearch">ProductSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FlipKart_TestScripts" title="com.FlipKart.TestCases.FlipKartAddtoCart" hash-for-method="addtocart">addtocart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FlipKart_TestScripts -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FlipKart_TestScripts" class="panel FlipKart_TestScripts">
+          <div class="suite-FlipKart_TestScripts-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FlipKart.TestCases.LoginFlipKartviaAlertPopup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginFlipkart">
+                  </a> <!-- LoginFlipkart -->
+                  <span class="method-name">LoginFlipkart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FlipKart_TestScripts-class-passed -->
+          <div class="suite-FlipKart_TestScripts-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FlipKart.TestCases.FlipKartAddtoCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addtocart">
+                  </a> <!-- addtocart -->
+                  <span class="method-name">addtocart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FlipKart_TestScripts-class-passed -->
+          <div class="suite-FlipKart_TestScripts-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FlipKart.TestCases.CloseFlipKartLoginPopup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseAlertPopup">
+                  </a> <!-- CloseAlertPopup -->
+                  <span class="method-name">CloseAlertPopup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FlipKart_TestScripts-class-passed -->
+          <div class="suite-FlipKart_TestScripts-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FlipKart.TestCases.FlipKartProductSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProductSearch">
+                  </a> <!-- ProductSearch -->
+                  <span class="method-name">ProductSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FlipKart_TestScripts-class-passed -->
+        </div> <!-- panel FlipKart_TestScripts -->
+        <div panel-name="test-xml-FlipKart_TestScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\AUTOMATION\WORKSPACE\FlipKartBasics\FlipKarttestng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;FlipKart TestScripts&quot;&gt;
+  &lt;test name=&quot;FlipKart Testcase 1: Close Login Popup&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.FlipKart.TestCases.CloseFlipKartLoginPopup&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FlipKart Testcase 1: Close Login Popup --&gt;
+  &lt;test name=&quot;FlipKart Testcases 2 and 3: Login via Popup and Product Search&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.FlipKart.TestCases.LoginFlipKartviaAlertPopup&quot;/&gt;
+      &lt;class name=&quot;com.FlipKart.TestCases.FlipKartProductSearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FlipKart Testcases 2 and 3: Login via Popup and Product Search --&gt;
+  &lt;test name=&quot;FlipKart Testcase 4: Add to cart&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.FlipKart.TestCases.FlipKartAddtoCart&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FlipKart Testcase 4: Add to cart --&gt;
+&lt;/suite&gt; &lt;!-- FlipKart TestScripts --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FlipKart_TestScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FlipKart TestScripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FlipKart Testcase 1: Close Login Popup (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">FlipKart Testcases 2 and 3: Login via Popup and Product Search (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">FlipKart Testcase 4: Add to cart (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FlipKart_TestScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FlipKart TestScripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FlipKart_TestScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FlipKart TestScripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FlipKart_TestScripts');
+function tableData_FlipKart_TestScripts() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addtocart')
+data.setCell(0, 2, 'com.FlipKart.TestCases.FlipKartAddtoCart')
+data.setCell(0, 3, 23231);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ProductSearch')
+data.setCell(1, 2, 'com.FlipKart.TestCases.FlipKartProductSearch')
+data.setCell(1, 3, 10902);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginFlipkart')
+data.setCell(2, 2, 'com.FlipKart.TestCases.LoginFlipKartviaAlertPopup')
+data.setCell(2, 3, 9280);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CloseAlertPopup')
+data.setCell(3, 2, 'com.FlipKart.TestCases.CloseFlipKartLoginPopup')
+data.setCell(3, 3, 2281);
+window.suiteTableData['FlipKart_TestScripts']= { tableData: data, tableDiv: 'times-div-FlipKart_TestScripts'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <div id="times-div-FlipKart_TestScripts">
+              </div> <!-- times-div-FlipKart_TestScripts -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FlipKart_TestScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FlipKart TestScripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FlipKart_TestScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.FlipKart.TestCases.FlipKartProductSearch</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+                <span class="ignored-method-name">Selectbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FlipKart_TestScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FlipKart.TestCases.CloseFlipKartLoginPopup</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Selectbrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">CloseAlertPopup</span>
+                <span class="method-start">19192 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">21473 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FlipKart.TestCases.LoginFlipKartviaAlertPopup</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Selectbrowser</span>
+                <span class="method-start">22478 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">LoginFlipkart</span>
+                <span class="method-start">40096 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FlipKart.TestCases.FlipKartProductSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ProductSearch</span>
+                <span class="method-start">49384 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FlipKart.TestCases.LoginFlipKartviaAlertPopup</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">60286 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FlipKart.TestCases.FlipKartAddtoCart</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Selectbrowser</span>
+                <span class="method-start">61258 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">addtocart</span>
+                <span class="method-start">78450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">101681 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
